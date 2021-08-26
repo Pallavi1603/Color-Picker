@@ -29,7 +29,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div style={{backgroundColor:"rgb("+this.state.red+","+this.state.green+","+this.state.blue+")",height:"100vh"}}>
+      <div style={{backgroundColor:"rgb("+(this.state.red*2.50)+","+(this.state.green*2.50)+","+(this.state.blue*2.50)+")",height:"100vh"}}>
         <div style={{
           backgroundColor:"white",
           width:200,
